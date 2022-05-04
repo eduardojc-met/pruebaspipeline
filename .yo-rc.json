@@ -1,0 +1,55 @@
+{
+  "generator-jhipster": {
+    "skipJhipsterDependencies": true,
+    "skipServer": true,
+    "databaseType": "sql",
+    "devDatabaseType": "sql",
+    "prodDatabaseType": "sql",
+    "authenticationType": "jwt",
+    "blueprints": [
+      {
+        "name": "@scfhq/generator-jhipster-foundation",
+        "version": "2.3.1"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "@scfhq/generator-jhipster-foundation",
+        "version": "2.3.1"
+      }
+    ],
+    "applicationType": "monolith",
+    "baseName": "prueba3",
+    "jhipsterVersion": "7.3.0",
+    "skipClient": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1650620753914,
+    "clientFramework": "react",
+    "withAdminUi": true,
+    "useExportFunction": false,
+    "enableTranslation": false,
+    "nativeLanguage": "es",
+    "devServerPort": 9060,
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "packageName": "com.mycompany.myapp",
+    "cacheProvider": "ehcache",
+    "websocket": false,
+    "searchEngine": false,
+    "buildTool": "maven",
+    "serverPort": "8080",
+    "serviceDiscoveryType": false,
+    "enableHibernateCache": true,
+    "reactive": false,
+    "enableGradleEnterprise": false,
+    "languages": ["en", "fr"]
+  }
+}

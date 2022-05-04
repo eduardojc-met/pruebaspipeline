@@ -1,0 +1,20 @@
+FROM node:16
+
+
+WORKDIR /app
+
+RUN npm  cache clear --force
+
+#RUN npm config rm proxy
+#RUN npm config rm https-proxy
+
+COPY ["package.json",".npmrc", "./"]
+RUN npm config set strict-ssl false
+RUN npm install 
+
+
+COPY . .
+
+EXPOSE 8085
+
+CMD ["npm", "start"]
